@@ -1,0 +1,140 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+
+--Stone100: hsl(30, 54%, 90%);
+--Stone150: hsl(30, 18%, 87%);
+--Stone600: hsl(30, 10%, 34%);
+--Stone900: hsl(24, 5%, 18%);
+
+--Brown800: hsl(14, 45%, 36%);
+
+--Rose800: hsl(332, 51%, 32%);
+--Rose50: hsl(330, 100%, 98%);
+}
+
+*,
+*::after,
+*::before{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+img{
+    width: 100%;
+    height: auto;
+}
+body{
+    font-family: "outfit", serif;
+    font-weight: 400;
+    background-color: var(--Stone100);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:"Young Serif", serif ;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+p{
+   color: var(--Stone600);
+}
+.main{
+    width:750px ;
+    background-color: var(--White);
+    padding: 40px;
+    margin: 125px 0;
+    border-radius: 25px;
+}
+.main img{
+    border-radius:15px ;
+    margin-bottom: 30px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--Stone900);
+}
+.time{
+
+    background-color: var(--Rose50);
+    border-radius:10px ;
+    padding: 25px;
+    list-style: inside;
+    line-height: 2;
+    margin: 35px 0;
+}
+.time h4{
+    font-family: "outfit", serif; ;
+    font-weight:600 ;
+    font-size: 20px;
+    color: var(--Rose800);
+}
+ .main ul li::marker{
+    color: var(--Rose800);
+ }
+ .main ul li{
+    color: var(--Stone600);
+ }
+ .main ul li span{
+    font-weight: bold;
+ }
+
+ .ingredients{
+    line-height: 2;
+ margin-bottom: 35px;
+ list-style: inside;
+ }
+ .ingredients h3{
+    color:var(--Brown800) ;
+ }
+ .ingredients ul li::marker{
+    color: var(--Brown800);
+ }
+ .instracrions{
+    margin: 35px 0;
+    line-height: 2;
+    
+ }
+ .instracrions h3{
+    color:var(--Brown800)
+ }
+ .instracrions ol{
+    margin-left: 25px;
+ }
+ .instracrions ol li::marker{
+    color: var(--Brown800);
+ }
+ .instracrions ol li{
+    color: var(--Stone600);
+ }
+ .instracrions ol li span{
+    font-weight: bold;
+ }
+ .Nutrition{
+    margin-top: 35px;
+ }
+ .Nutrition h3{
+    color: var(--Brown800);
+ }
+ table{
+    margin: 30px 0;
+    width: 100%;
+    
+ }
+ td{
+    padding: 15px 30px;
+ }
+ .table{
+    color:var(--Brown800);
+    font-weight: 700;
+ }
+ table tr td{
+    border-bottom: 1px solid var(--Stone150);
+    opacity: 0.7;
+ }
+ 
